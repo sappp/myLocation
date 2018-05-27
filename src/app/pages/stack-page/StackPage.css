@@ -1,0 +1,4 @@
+.StackPage {
+  grid-area: content;
+  justify-self: center;
+}

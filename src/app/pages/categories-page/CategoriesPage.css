@@ -1,0 +1,13 @@
+.CategoriesPage {
+  grid-area: content;
+  display: grid;
+  /* justify-self: center; */
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 1fr;
+  min-height: 450px;
+  /* grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "table" */
+  grid-template-areas: "top-toolbar"
+                       "categories";
+}

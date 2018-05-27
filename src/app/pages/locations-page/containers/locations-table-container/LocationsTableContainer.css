@@ -1,0 +1,30 @@
+.LocationsTableContainer {
+  grid-area: locations;
+  justify-self: center;
+}
+
+
+.LocationsTableContainer table {
+  min-width: 610px;
+}
+
+.categoryFilter {
+  padding: 5px;
+  padding-top: 0px;
+}
+
+.categoryFilter select {
+  width: 50%;
+}
+
+.LocationsTableContainerItem {
+  cursor: pointer;
+}
+
+.LocationsTableContainerItemSelected {
+  background-color: #0074d924 !important;
+}
+
+.LocationTableHeadThPointer {
+  cursor: pointer;
+}

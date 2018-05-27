@@ -1,0 +1,9 @@
+.LocationsPage {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 1fr;
+  min-height: 450px;
+  grid-template-areas: "top-toolbar"
+                       "locations";
+}

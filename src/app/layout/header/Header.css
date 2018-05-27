@@ -1,0 +1,20 @@
+.Header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header-title . navbar-links";
+  z-index: 1;
+}
+
+.HeaderTitle {
+  grid-area: header-title;
+  align-self: center;
+  justify-self: center;
+}
+
+.NavbarLinks {
+  grid-area: navbar-links;
+  align-self: center;
+  justify-self: center;
+}

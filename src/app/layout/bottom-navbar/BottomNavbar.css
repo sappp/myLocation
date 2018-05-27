@@ -1,0 +1,4 @@
+.BottomNavbar {
+  grid-area: bottom-navbar;
+  justify-self: center;
+}

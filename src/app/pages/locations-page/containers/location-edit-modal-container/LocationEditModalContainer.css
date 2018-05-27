@@ -1,0 +1,31 @@
+.LocationEditModalContainer {
+}
+
+.LocationEditModalContainerSection {
+  display: grid !important;
+  grid-template-columns: 0.5fr 1fr;
+  grid-column-gap: 10px;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fileds map";
+}
+
+.LocationEditModalContainerSectionMap {
+  grid-area: map;
+}
+
+.LocationEditModalContainerSectionFields {
+  grid-area: fileds;
+}
+
+.fieldCoordinates input {
+  width: 35%;
+}
+
+.fieldCoordinates span {
+  font-size: 14px;
+  padding: 3px;
+}
+
+.disabledField input {
+  background-color: #cccccc6b;
+}

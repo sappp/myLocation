@@ -1,0 +1,19 @@
+.LocationViewModalContainer {
+}
+
+.LocationViewModalContainerSection {
+  display: grid !important;
+  grid-template-rows: 50px 1fr ;
+  grid-template-columns: 1fr;
+  grid-template-areas: "info info"
+                        "map map";
+}
+
+.LocationViewModalContainerSectionMap {
+  grid-area: map;
+}
+
+.LocationViewModalContainerSectionInfo {
+  grid-area: info;
+}
+

@@ -1,0 +1,17 @@
+.CategoriesTableContainer {
+  grid-area: categories;
+  justify-self: center;
+}
+.CategoriesTableContainer tr {
+  text-align: center;
+}
+
+.CategoriesTableContainerItem {
+  cursor: pointer;
+}
+.CategoriesTableContainerItemSelected {
+  background-color: #0074d924 !important;
+}
+/* .CategoriesPageSpinner {
+  grid-area: spinner;
+} */

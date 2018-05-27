@@ -1,0 +1,69 @@
+.App {
+  display: grid;
+  grid-template-columns: 150px 1fr 150px;
+  grid-template-rows: 50px  1fr 150px;
+  align-items: center;
+  grid-template-areas: "header header header"
+                       ". content ."
+                       ". bottom-navbar .";
+}
+
+.app-modal-style .overlay ~ * {
+  top: 40%;
+  transform: translateX(-50%) translateY(-50%) scale(1, 1);
+  border: 0;
+  position: absolute;
+  left: 50%;
+  z-index: 1000000;
+  transition: all 0.3s;
+}
+
+.app-modal-style article {
+  width: 50%;
+}
+
+.app-modal-style section {
+  min-height: 115px;
+}
+
+.app-modal-style-field-error {
+  font-size: 14px;
+  color: red;
+}
+
+.app-modal-style-field-label {
+  font-size: 15px;
+  color: #808080b5;
+  padding: 5px;
+}
+
+.AppTopToolbar {
+  grid-area: top-toolbar;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  grid-template-areas: "toolbar-title toolbar-buttons";
+}
+
+
+.AppTopToolbarTitle {
+  grid-area: toolbar-title;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.AppToolbarButtonsContainer {
+  grid-area: toolbar-buttons;
+  position: relative;
+  z-index: 1;
+}
+
+.AppToolbarButtonsContainer button {
+  font-size: .80em;
+}
+
+.AppToolbarButtonsContainerAddButton {
+  margin-right: 20px;
+}
